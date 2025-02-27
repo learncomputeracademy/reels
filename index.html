@@ -13,6 +13,8 @@
             --bg-dark: #1f2937;
             --card-light: #ffffff;
             --card-dark: #374151;
+            --completed-dark: #2d3748; /* Darker gray for completed in dark mode */
+            --completed-light: #fefcbf; /* Light yellow for completed in light mode */
         }
 
         body {
@@ -29,7 +31,7 @@
             color: #1f2937;
         }
 
-        /* Light Rays Background */
+        /* Vibrant Background Animation */
         body::before {
             content: '';
             position: fixed;
@@ -37,23 +39,23 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
-            background-size: 300% 300%;
-            animation: rays 15s infinite linear;
+            background: linear-gradient(45deg, rgba(239, 68, 68, 0.2), rgba(250, 204, 21, 0.2), transparent);
+            background-size: 400% 400%;
+            animation: gradientFlow 10s ease infinite;
             pointer-events: none;
             z-index: -1;
-            opacity: 0.5;
+            opacity: 0.6;
         }
 
         body.light::before {
-            background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.05) 0%, transparent 70%);
-            opacity: 0.3;
+            background: linear-gradient(45deg, rgba(239, 68, 68, 0.1), rgba(250, 204, 21, 0.1), transparent);
+            opacity: 0.4;
         }
 
-        @keyframes rays {
-            0% { background-position: 0% 0%; transform: rotate(0deg); }
-            50% { background-position: 100% 100%; transform: rotate(10deg); }
-            100% { background-position: 0% 0%; transform: rotate(0deg); }
+        @keyframes gradientFlow {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 100% 100%; }
+            100% { background-position: 0% 0%; }
         }
 
         .card {
@@ -69,20 +71,51 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
         }
 
-        .card:hover {
+        .completed-card {
+            background: var(--completed-dark);
+            border: 1px solid var(--secondary);
+        }
+
+        .light .completed-card {
+            background: var(--completed-light);
+            border: 1px solid var(--primary);
+        }
+
+        .card:hover, .completed-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .theme-toggle {
-            background: #6b7280;
+            position: relative;
+            width: 48px;
+            height: 24px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
             border-radius: 9999px;
-            padding: 6px;
+            cursor: pointer;
             transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .theme-toggle::before {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .light .theme-toggle::before {
+            transform: translateX(24px);
         }
 
         .theme-toggle:hover {
-            background: #9ca3af;
+            box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
         }
 
         .bg-gradient {
@@ -93,11 +126,23 @@
             background: var(--card-dark);
             border: 1px solid #4b5563;
             transition: all 0.3s ease;
+            color: #e5e7eb; /* Fixed text color for dark mode */
         }
 
         .light select {
             background: var(--card-light);
             border-color: #d1d5db;
+            color: #1f2937; /* Fixed text color for light mode */
+        }
+
+        select option {
+            background: var(--card-dark);
+            color: #e5e7eb;
+        }
+
+        .light select option {
+            background: var(--card-light);
+            color: #1f2937;
         }
 
         @keyframes fadeIn {
@@ -132,17 +177,12 @@
             <h1 class="text-3xl font-bold bg-gradient text-transparent bg-clip-text">
                 Reels Ideas 🎬 Learn Computer Academy
             </h1>
-            <button onclick="toggleTheme()" class="theme-toggle">
-                <svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-            </button>
+            <div onclick="toggleTheme()" class="theme-toggle"></div>
         </div>
 
         <!-- Filter Dropdown -->
         <div class="flex justify-center">
-            <select id="categoryFilter" class="p-3 rounded-lg shadow-sm w-full max-w-xs text-gray-300 light:text-gray-700">
+            <select id="categoryFilter" class="p-3 rounded-lg shadow-sm w-full max-w-xs">
                 <option value="all">All Categories</option>
             </select>
         </div>
@@ -200,6 +240,7 @@
                     categories.add(reel.category);
                     const reelElement = document.createElement('div');
                     reelElement.classList.add('card', 'p-5', 'cursor-pointer');
+                    if (reel.completed) reelElement.classList.add('completed-card');
                     reelElement.style.animationDelay = `${index * 0.1}s`;
                     reelElement.setAttribute("data-category", reel.category);
                     reelElement.onclick = () => showPopup(reel.title, reel.script);
