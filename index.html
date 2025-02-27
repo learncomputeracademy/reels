@@ -1,532 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Class timetable for Learn Computer Academy">
-  <meta name="theme-color" content="#1e40af">
-  <link rel="manifest" href="https://learncomputeracademy.github.io/time/manifest.webmanifest">
-  <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/learncomputeracademy/image/upload/w_80,c_fill,ar_1:1,g_auto,r_max/v1701951354/learncomputer.in/12_plqchp.png">
-  <title>LCA Class Timetable</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --primary: #1e40af; /* Deep blue */
-      --secondary: #fbbf24; /* Warm amber */
-      --bg-dark: #0f172a; /* Slate dark */
-      --bg-light: #e2e8f0; /* Softer gray for better contrast */
-      --accent: #dc2626; /* Bright red */
-      --text: #f8fafc; /* Near-white */
-      --text-dark: #1e293b; /* Darker slate for readability */
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reels Ideas - Learn Computer Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: #ef4444; /* Red */
+            --secondary: #facc15; /* Yellow */
+            --bg-light: #f3f4f6;
+            --bg-dark: #1f2937;
+            --card-light: #ffffff;
+            --card-dark: #374151;
+            --completed-dark: #2d3748; /* Darker gray for completed in dark mode */
+            --completed-light: #fefcbf; /* Light yellow for completed in light mode */
+        }
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, var(--bg-dark), var(--primary));
-      color: var(--text);
-      margin: 0;
-      padding: 8px;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
+        body {
+            background: var(--bg-dark);
+            color: #e5e7eb;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow-x: hidden;
+        }
 
-    header {
-      background: rgba(0, 0, 0, 0.8);
-      padding: 8px 16px;
-      border-radius: 8px;
-      backdrop-filter: blur(5px);
-      width: 100%;
-      max-width: 1200px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 8px;
-    }
+        body.light {
+            background: var(--bg-light);
+            color: #1f2937;
+        }
 
-    .timetable {
-      display: grid;
-      grid-template-columns: 80px repeat(4, 1fr);
-      gap: 1px;
-      font-size: 12px;
-      width: 100%;
-      max-width: 1200px;
-      background: var(--bg-light);
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }
+        /* Vibrant Background Animation */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(239, 68, 68, 0.2), rgba(250, 204, 21, 0.2), transparent);
+            background-size: 400% 400%;
+            animation: gradientFlow 10s ease infinite;
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.6;
+        }
 
-    .timetable > div {
-      padding: 6px;
-    }
+        body.light::before {
+            background: linear-gradient(45deg, rgba(239, 68, 68, 0.1), rgba(250, 204, 21, 0.1), transparent);
+            opacity: 0.4;
+        }
 
-    .header-row {
-      background: var(--primary);
-      color: var(--text);
-      font-weight: 600;
-      text-align: center;
-      text-transform: uppercase;
-    }
+        @keyframes gradientFlow {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 100% 100%; }
+            100% { background-position: 0% 0%; }
+        }
 
-    .day {
-      background: var(--secondary);
-      color: var(--bg-dark);
-      font-weight: 700;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+        .card {
+            background: var(--card-dark);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeIn 0.5s ease-out;
+        }
 
-    .slot {
-      background: rgba(255, 255, 255, 0.95);
-      color: var(--text-dark);
-    }
+        .light .card {
+            background: var(--card-light);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
 
-    .slot ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      line-height: 1.4;
-    }
+        .completed-card {
+            background: var(--completed-dark);
+            border: 1px solid var(--secondary);
+        }
 
-    .slot li:empty::before {
-      content: '✘';
-      color: var(--accent);
-    }
+        .light .completed-card {
+            background: var(--completed-light);
+            border: 1px solid var(--primary);
+        }
 
-    .slot li::after {
-      content: attr(data-stream);
-      color: var(--accent);
-    }
+        .card:hover, .completed-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
 
-    /* Footer Styling */
-    footer {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      max-width: 1200px;
-      margin-top: 8px;
-      gap: 8px;
-      font-size: 12px;
-    }
+        .theme-toggle {
+            position: relative;
+            width: 48px;
+            height: 24px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 9999px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
 
-    .toggle-section {
-      background: var(--bg-light);
-      border-radius: 8px;
-      padding: 4px 8px;
-      flex: 1;
-      transition: all 0.3s ease;
-    }
+        .theme-toggle::before {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
 
-    .toggle-section.active {
-      background: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
+        .light .theme-toggle::before {
+            transform: translateX(24px);
+        }
 
-    .toggle-section summary {
-      font-weight: 600;
-      color: var(--primary);
-      cursor: pointer;
-      padding: 2px 0;
-    }
+        .theme-toggle:hover {
+            box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+        }
 
-    .toggle-content {
-      display: none;
-      padding: 4px 8px;
-      color: var(--text-dark);
-    }
+        .bg-gradient {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        }
 
-    .toggle-section.active .toggle-content {
-      display: block;
-    }
+        select {
+            background: var(--card-dark);
+            border: 1px solid #4b5563;
+            transition: all 0.3s ease;
+            color: #e5e7eb; /* Fixed text color for dark mode */
+        }
 
-    .toggle-content ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      line-height: 1.3;
-    }
+        .light select {
+            background: var(--card-light);
+            border-color: #d1d5db;
+            color: #1f2937; /* Fixed text color for light mode */
+        }
 
-    .toggle-content li[data-d="d"] {
-      color: var(--accent);
-    }
+        select option {
+            background: var(--card-dark);
+            color: #e5e7eb;
+        }
 
-    /* Animations */
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+        .light select option {
+            background: var(--card-light);
+            color: #1f2937;
+        }
 
-    header, .timetable, footer {
-      animation: slideIn 0.5s ease-out;
-    }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-      width: 4px;
-    }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
 
-    ::-webkit-scrollbar-track {
-      background: var(--bg-light);
-    }
+        .animate-header {
+            animation: slideIn 0.6s ease-out;
+        }
 
-    ::-webkit-scrollbar-thumb {
-      background: var(--primary);
-      border-radius: 10px;
-    }
+        .popup-content {
+            animation: scaleIn 0.3s ease-out;
+        }
 
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--accent);
-    }
-
-    @media (max-width: 640px) {
-      .timetable {
-        grid-template-columns: 60px repeat(4, 1fr);
-        font-size: 9px;
-      }
-      footer {
-        flex-direction: column;
-        font-size: 8px;
-      }
-    }
-  </style>
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <div id="today" class="text-xs"></div>
-    <a href="https://learncomputer.in/" target="_blank" class="text-xs hover:text-secondary">Learn Computer Academy</a>
-    <div id="time" class="text-xs flex items-center gap-1"></div>
-  </header>
+<body class="dark transition-all duration-300">
+    <div class="max-w-7xl mx-auto p-6 space-y-8">
+        <!-- Header & Theme Toggle -->
+        <div class="flex items-center justify-between animate-header">
+            <h1 class="text-3xl font-bold bg-gradient text-transparent bg-clip-text">
+                Reels Ideas 🎬 Learn Computer Academy
+            </h1>
+            <div onclick="toggleTheme()" class="theme-toggle"></div>
+        </div>
 
-  <section class="timetable">
-    <div class="header-row">Days</div>
-    <div class="header-row">10:30-12:30</div>
-    <div class="header-row">12:30-02:30</div>
-    <div class="header-row">04:00-06:00</div>
-    <div class="header-row">06:00-08:00</div>
+        <!-- Filter Dropdown -->
+        <div class="flex justify-center">
+            <select id="categoryFilter" class="p-3 rounded-lg shadow-sm w-full max-w-xs">
+                <option value="all">All Categories</option>
+            </select>
+        </div>
 
-    <div class="day">Mon</div>
-    <div class="slot">
-      <ul>
-        <li>Alok Mondal <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="10" height="10"></li>
-        <li>Arina Khatun</li>
-        <li>Ratnadeep Dutta</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Priti Biswas</li>
-        <li>Suraj Bhowmick</li>
-        <li>Arnab Kundu</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Mihir Bala</li>
-        <li>Suprabhat Sarkar</li>
-        <li data-stream=" 🖰">Arnab Roy</li>
-        <li data-stream=" 🖰">Usha Sadhak</li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li data-stream=" 🖰">Samrit Paul</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+        <!-- Pending Reels -->
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Pending Reels 🕒</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="pending-reels"></div>
+        </div>
+
+        <!-- Completed Reels -->
+        <div>
+            <h2 class="text-xl font-semibold mb-4">Completed Reels ✅</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="completed-reels"></div>
+        </div>
     </div>
 
-    <div class="day">Tue</div>
-    <div class="slot">
-      <ul>
-        <li>Disha Majumder</li>
-        <li>Pabitra Ghosh</li>
-        <li>Sumit Mondal</li>
-        <li>Sohag Dey</li>
-        <li>Doyel Roy</li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Tanmoy Mondal</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Srijita Karmakar</li>
-        <li data-stream=" 🖰">Diya Das</li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+    <!-- Popup -->
+    <div id="popup" class="fixed inset-0 bg-black bg-opacity-60 hidden flex items-center justify-center">
+        <div class="card p-6 rounded-xl w-11/12 md:w-1/2 popup-content relative">
+            <button class="absolute top-3 right-3 text-2xl text-gray-500 hover:text-gray-300" onclick="closePopup()">×</button>
+            <h2 id="popup-title" class="text-2xl font-bold mb-4 bg-gradient text-transparent bg-clip-text"></h2>
+            <p id="popup-script" class="text-base leading-relaxed"></p>
+        </div>
     </div>
 
-    <div class="day">Wed</div>
-    <div class="slot">
-      <ul>
-        <li>Alok Mondal <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="10" height="10"></li>
-        <li>Arina Khatun</li>
-        <li>Ratnadeep Dutta</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Priti Biswas</li>
-        <li>Suraj Bhowmick</li>
-        <li>Arnab Kundu</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Mihir Bala</li>
-        <li>Suprabhat Sarkar</li>
-        <li data-stream=" 🖰">Arnab Roy</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li data-stream=" 🖰">Rick Das</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
+    <script>
+        // Theme Toggle with Local Storage
+        function toggleTheme() {
+            document.body.classList.toggle('light');
+            document.body.classList.toggle('dark');
+            localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+        }
 
-    <div class="day">Thu</div>
-    <div class="slot">
-      <ul>
-        <li>Disha Majumder</li>
-        <li>Doyel Roy</li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Tanmoy Mondal</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Pabitra Ghosh</li>
-        <li>Sumit Mondal</li>
-        <li>Sohag Dey</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Soumyadeep Mridha <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="10" height="10"></li>
-        <li data-stream=" 🖰">Samrit Paul</li>
-        <li data-stream=" 🖰">Usha Sadhak</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
+        // Load Theme Preference (default dark)
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light');
+            document.body.classList.remove('dark');
+        } else {
+            document.body.classList.add('dark');
+            document.body.classList.remove('light');
+        }
 
-    <div class="day">Fri</div>
-    <div class="slot">
-      <ul>
-        <li>Alok Mondal <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="10" height="10"></li>
-        <li>Arina Khatun</li>
-        <li>Ratnadeep Dutta</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Priti Biswas</li>
-        <li>Suraj Bhowmick</li>
-        <li>Arnab Kundu</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Mihir Bala</li>
-        <li>Suprabhat Sarkar</li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li data-stream=" 🖰">Diya Das</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
+        async function loadReels() {
+            try {
+                const response = await fetch('reels.json');
+                if (!response.ok) throw new Error("JSON file not found.");
+                const data = await response.json();
+                const pendingContainer = document.getElementById('pending-reels');
+                const completedContainer = document.getElementById('completed-reels');
+                const categoryFilter = document.getElementById('categoryFilter');
+                const categories = new Set();
 
-    <div class="day">Sat</div>
-    <div class="slot">
-      <ul>
-        <li>Disha Majumder</li>
-        <li>Doyel Roy</li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Srijita Karmakar</li>
-        <li>Soumyadeep Mridha</li>
-        <li>Tanmoy Mondal</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li>Pabitra Ghosh</li>
-        <li>Sumit Mondal</li>
-        <li>Sohag Dey</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="slot">
-      <ul>
-        <li data-stream=" 🖰">Rick Das</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </section>
+                data.reels.forEach((reel, index) => {
+                    categories.add(reel.category);
+                    const reelElement = document.createElement('div');
+                    reelElement.classList.add('card', 'p-5', 'cursor-pointer');
+                    if (reel.completed) reelElement.classList.add('completed-card');
+                    reelElement.style.animationDelay = `${index * 0.1}s`;
+                    reelElement.setAttribute("data-category", reel.category);
+                    reelElement.onclick = () => showPopup(reel.title, reel.script);
 
-  <footer>
-    <div class="toggle-section" data-toggle-id="web-dev-1">
-      <summary>Web Dev 1</summary>
-      <div class="toggle-content">
-        <ul>
-          <li data-d="">Ratnadeep Dutta (25)</li>
-          <li data-d="d">Mihir Bala (20)</li>
-          <li data-d="d">Alok Mondal (19)</li>
-          <li data-d="d">Priti Biswas (15)</li>
-          <li data-d="d">Samaresh Das (14)</li>
-          <li data-d="d">Disha Majumder (12)</li>
-          <li data-d="">Pabitra Ghosh (12)</li>
-          <li data-d="">Sumit Mondal (12)</li>
-        </ul>
-      </div>
-    </div>
-    <div class="toggle-section" data-toggle-id="web-dev-2">
-      <summary>Web Dev 2</summary>
-      <div class="toggle-content">
-        <ul>
-          <li data-d="">Sohag Dey (10)</li>
-          <li data-d="d">Tanmoy Mondal (09)</li>
-          <li data-d="d">Arina Khatun (06)</li>
-          <li data-d="d">Soumyadeep Mridha (05)</li>
-          <li data-d="d">Srijita Karmakar (03)</li>
-          <li data-d="d">Doyel Roy (02)</li>
-          <li data-d="">Suprabhat Sarkar (01)</li>
-          <li data-d="">Suraj Bhowmick (01)</li>
-          <li data-d="">Arnab Kundu (01)</li>
-        </ul>
-      </div>
-    </div>
-    <div class="toggle-section" data-toggle-id="basic-computer">
-      <summary>Basic Computer</summary>
-      <div class="toggle-content">
-        <ul>
-          <li data-d="">Samrit Paul (11)</li>
-          <li data-d="d">Diya Das (07)</li>
-          <li data-d="">Arnab Roy (06)</li>
-          <li data-d="d">Usha Sadhak (02)</li>
-          <li data-d="d">Rick Das (02)</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+                    reelElement.innerHTML = `
+                        <h3 class="font-semibold text-lg">${reel.title}</h3>
+                        <p class="text-sm text-gray-400 light:text-gray-600 mt-2 line-clamp-2">${reel.script}</p>
+                        <span class="text-xs mt-3 inline-block px-2 py-1 bg-gradient text-white rounded-full">${reel.category}</span>
+                    `;
 
-  <script>
-    // Date and Time Functions
-    function formatDateWithDay(date) {
-      const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-      return `${days[date.getDay()]}, ${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
-    }
+                    (reel.completed ? completedContainer : pendingContainer).appendChild(reelElement);
+                });
 
-    document.querySelector('#today').textContent = `Today: ${formatDateWithDay(new Date())}`;
+                categories.forEach(category => {
+                    const option = document.createElement('option');
+                    option.value = category;
+                    option.textContent = category;
+                    categoryFilter.appendChild(option);
+                });
 
-    function getCurrentTime() {
-      const now = new Date();
-      const hours = (now.getHours() % 12 || 12).toString().padStart(2, '0');
-      const minutes = now.getMinutes().toString().padStart(2, '0');
-      const seconds = now.getSeconds().toString().padStart(2, '0');
-      const ampm = now.getHours() >= 12 ? 'PM' : 'AM';
-      return `<img src="https://i.ibb.co/r5136nN/time-2.png" alt="time" width="12" height="12"> ${hours}:${minutes}:${seconds} ${ampm}`;
-    }
+                categoryFilter.addEventListener("change", () => filterReels(categoryFilter.value));
+            } catch (error) {
+                console.error('Error:', error);
+                alert("Error loading reels.");
+            }
+        }
 
-    const timeElement = document.querySelector('#time');
-    timeElement.innerHTML = getCurrentTime();
-    setInterval(() => timeElement.innerHTML = getCurrentTime(), 1000);
+        function filterReels(category) {
+            document.querySelectorAll('.grid > .card').forEach(reel => {
+                const reelCategory = reel.getAttribute("data-category");
+                reel.style.display = category === "all" || reelCategory === category ? "block" : "none";
+            });
+        }
 
-    // Toggle Functionality
-    const toggleSections = document.querySelectorAll('.toggle-section');
+        function showPopup(title, script) {
+            document.getElementById("popup-title").textContent = title;
+            document.getElementById("popup-script").textContent = script;
+            document.getElementById("popup").classList.remove("hidden");
+        }
 
-    toggleSections.forEach(section => {
-      const summary = section.querySelector('summary');
-      summary.addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent default <details> behavior
+        function closePopup() {
+            document.getElementById("popup").classList.add("hidden");
+        }
 
-        // Close all other sections
-        toggleSections.forEach(otherSection => {
-          if (otherSection !== section) {
-            otherSection.classList.remove('active');
-          }
+        document.getElementById("popup").addEventListener("click", (event) => {
+            if (event.target === event.currentTarget) closePopup();
         });
 
-        // Toggle the clicked section
-        section.classList.toggle('active');
-      });
-    });
-  </script>
+        loadReels();
+    </script>
 </body>
 </html>
