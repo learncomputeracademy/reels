@@ -56,43 +56,43 @@
     },
     {
       "title": "What is a computer virus? (How to stay safe)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever clicked a shady link and panicked? That’s where computer viruses come in. Let’s decode what they are and how to dodge them—easy stuff!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"A computer virus is sneaky code that messes with your device. It can steal your data, slow things down, or even crash your system. In 2023, over 500 million virus attacks hit users worldwide—crazy, right? They often hide in downloads or sketchy emails.\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Think of it like a cold: it spreads when you ‘catch’ it from an infected file. Once inside, it might copy itself, spy on you, or delete stuff. For example, ransomware—a type of virus—locked up 62% of its victims’ files last year until they paid up. It’s digital blackmail!\"  \r\n<b style='style:block'>[1:00-1:30] How to stay safe</b>\r\n\"Here’s the fix: use antivirus software—70% of protected devices block threats before they strike. Skip weird links, update your apps, and back up your files. Simple moves, big wins. Oh, and 2-factor authentication? Cuts hacking risk by 99%!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, viruses are a pain, but you’ve got the tools to fight back. Caught one before? Tell me below—I’ll read it! Follow for more tech tips!\"  ",
       "category": "Computer Basics & IT Concepts",
       "completed": false
     },
     {
       "title": "What is cloud computing? (Basic overview)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Heard of ‘the cloud’ and wondered what it is? Spoiler: it’s not fluffy! Let’s break down cloud computing—super simple!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"Cloud computing is like renting someone else’s computer over the internet. Instead of storing files or running apps on your device, you use big servers far away. In 2024, the cloud market hit $600 billion—everyone’s on it, from Netflix to your photo backups!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Picture this: you upload a pic to Google Drive. It doesn’t sit on your phone—it’s whisked off to a data center. Need it? The cloud sends it back, fast. Companies like Amazon and Microsoft run millions of servers—over 50% of all businesses rely on them now.\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s cool</b>\r\n\"Here’s the perk: no need for a beefy PC. Stream games, edit videos, whatever—all powered by the cloud. Plus, it’s scalable—68% of startups say it’s why they grew fast without breaking the bank.\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, cloud computing’s your invisible helper—storage, power, all online. Use it yet? Drop a comment! Follow me for more tech made clear!\"  ",
       "category": "Computer Basics & IT Concepts",
       "completed": false
     },
     {
       "title": "What is a server? (Basic explanation)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever wonder what keeps the internet alive? It’s servers! Let’s unpack what they are—no tech degree needed!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"A server’s just a powerful computer that stores and shares stuff online. Your favorite website? A server’s holding it. Your video game? A server’s running it. In 2025, there are over 100 million servers worldwide keeping us connected.\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Think of it like a librarian. You ask for a webpage—say, this video—and the server finds it, then sends it to you. Big sites like YouTube use thousands of servers. Fun fact: one Google data center can have 100,000 servers humming 24/7!\"  \r\n<b style='style:block'>[1:00-1:30] Types of servers</b>\r\n\"There’s web servers for sites, file servers for docs, even game servers for multiplayer. And get this: 80% of server power now comes from the cloud, not old-school office closets. It’s all about speed and scale!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, servers are the unsung heroes of your digital life. Next time you’re online, give ‘em a nod! Got questions? Comment below—follow for more tech bites!\"  ",
       "category": "Computer Basics & IT Concepts",
       "completed": false
     },
     {
       "title": "What is a website? (Basic explanation)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever wondered what a website really is? It’s more than just a page—let’s break it down, super easy!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"A website’s like a digital book online. It’s a collection of pages—text, pics, videos—stored on a server. You type a URL, like google.com, and bam, it shows up. In 2025, there are over 1.8 billion websites out there—that’s a lot of digital real estate!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Here’s the magic: a server sends the website’s files to your browser—like Chrome or Safari. The browser turns code into what you see. Fun fact: the first website went live in 1991, just text about the web itself. Today, 70% of sites are built for mobile first!\"  \r\n<b style='style:block'>[1:00-1:30] Why it matters</b>\r\n\"Websites are everywhere—shopping, learning, memes. Over 5 billion people use the web daily, and 90% of them visit websites, not just apps. It’s your window to the world, all from a few clicks!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, a website’s your online playground, served up fast. Got a favorite site? Tell me below—I’ll check it out! Follow for more tech explained!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is HTML? (Why it’s essential)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"HTML—heard of it? It’s the backbone of every website. Let’s unpack why it’s a big deal—no jargon, promise!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"HTML stands for HyperText Markup Language. It’s the code that builds a website’s structure—like its skeleton. Headings, paragraphs, images? HTML tells the browser where they go. Over 95% of websites in 2025 use it—basically everything!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Think of it like a recipe. You write tags—like <p> for paragraph—and the browser follows them to display stuff. The first HTML version launched in 1990 with 18 tags. Now? HTML5 has over 100, powering videos and animations too!\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s essential</b>\r\n\"Without HTML, websites wouldn’t exist. It’s step one for every developer—easy to learn, huge impact. Fun stat: 80% of web devs started with HTML. It’s the gateway to the internet!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, HTML’s the foundation of the web—simple but mighty. Want to try it? Comment ‘yes’—I’ll share a tip! Follow for more tech goodies!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is CSS? (How it styles websites)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Love a website’s look? Thank CSS—it’s the stylist of the web. Let’s see how it works—super quick!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"CSS means Cascading Style Sheets. It’s the code that makes websites pretty—colors, fonts, layouts. HTML builds the structure; CSS dresses it up. In 2024, 97% of websites used CSS to look good!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Picture this: HTML says, ‘Here’s a button.’ CSS says, ‘Make it blue, round, and shiny.’ It uses rules—like ‘background: blue’—and applies them fast. CSS3, the latest version, even adds animations. Over 60% of sites use it for slick effects!\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s cool</b>\r\n\"CSS saves time—change one file, and your whole site updates. Plus, it’s mobile-friendly—85% of web traffic’s on phones, and CSS makes sites fit perfectly. It’s the glow-up every page needs!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, CSS turns plain websites into eye candy. Notice a cool design lately? Share it below! Follow me for more web secrets!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is JavaScript? (Why it’s important)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever clicked a button and something cool happened? That’s JavaScript at work. Let’s dive in—super simple!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"JavaScript’s a coding language that makes websites interactive. Pop-ups, forms, animations? That’s it. Born in 1995, it’s now on 98% of websites—think YouTube, Facebook, everywhere!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"HTML builds, CSS styles, and JavaScript adds action. Like, ‘Click this, show that.’ It runs in your browser, no downloads needed. Fun fact: 70% of developers say it’s their go-to tool—over 19 million use it worldwide!\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s important</b>\r\n\"It’s the king of engagement. Games, live chats, scrolling effects—JavaScript powers them. In 2025, 80% of web apps rely on it. Without it, the web’s just static pages!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, JavaScript’s the spark that makes the web fun. Seen a cool trick online? Drop it below—I’ll check it! Follow for more tech made easy!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
@@ -116,37 +116,37 @@
     },
     {
       "title": "HTML vs. CSS vs. JavaScript - What’s the difference?",
-      "script": "Script: ",
+      "script": "Script: \"<b style='style:block'>[0:00-0:10] Hook</b>\r\n\"\"HTML, CSS, JavaScript—confused yet? Let’s sort out what they do for websites—it’s simpler than you think!\"\"  \r\n<b style='style:block'>[0:10-0:30] HTML</b>\r\n\"\"First, HTML—HyperText Markup Language. It’s the skeleton of a site. Think structure: headings, text, images. Over 95% of websites use it—it’s the starting point for everything online.\"\"  \r\n<b style='style:block'>[0:30-1:00] CSS</b>\r\n\"\"Next, CSS—Cascading Style Sheets. This is the stylist. It adds colors, fonts, layouts to HTML’s bones. Want a red button or cool animation? CSS does that. In 2024, 97% of sites used it to look sharp!\"\"  \r\n<b style='style:block'>[1:00-1:30] JavaScript</b>\r\n\"\"Then, JavaScript—the action hero. It makes sites interactive: pop-ups, forms, live updates. It’s on 98% of websites, powering stuff like games or chatbots. Together, they’re the dream team!\"\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"\"So, HTML builds, CSS beautifies, JavaScript animates. Like a house: foundation, paint, and lights. Spot them on your favorite site? Tell me below—follow for more web breakdowns!\"\"  \r\"",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is a domain name? (How it works)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever typed ‘youtube.com’ and wondered what’s up? That’s a domain name—let’s crack it open, super easy!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"A domain name’s your website’s address—like ‘google.com.’ It’s a human-friendly label for a string of numbers called an IP address. In 2025, over 350 million domains are registered worldwide!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"You type a domain, and the Domain Name System—DNS—plays matchmaker. It finds the server’s IP, like 172.217.0.1, and connects you. It’s fast—takes milliseconds. Fun fact: .com domains make up 46% of the web!\"  \r\n<b style='style:block'>[1:00-1:30] Why it matters</b>\r\n\"No domains, no easy web. Imagine memorizing numbers for every site! Businesses snag catchy ones—some sell for millions. ‘Cars.com’ went for $872 million in 2017!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, domain names are your web shortcut. Got a cool one in mind? Share it below—I’ll read it! Follow for more tech bites!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is web hosting? (Basic explanation)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Web hosting—sounds fancy, right? It’s just a home for your website. Let’s break it down—no tech talk needed!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"Web hosting’s like renting space on a server to store your site’s files. When someone visits, the server sends them over. In 2024, the hosting market hit $100 billion—everyone needs it!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Think of a server as a filing cabinet. You upload your site—HTML, images, all that—and the host keeps it online 24/7. Big hosts like Bluehost or AWS run thousands of servers. Over 60% of sites use shared hosting to save cash!\"  \r\n<b style='style:block'>[1:00-1:30] Types</b>\r\n\"There’s shared hosting—cheap, like an apartment. Or dedicated—like a house, all yours. Cloud hosting? Super flexible—40% of new sites picked it in 2025!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, web hosting keeps your site live. Ever tried it? Drop a comment—follow me for more web 101!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is a CMS? (WordPress, Shopify, etc.)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"CMS—heard of it? It’s how websites get easy. Let’s dive into WordPress, Shopify, and more—super simple!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"CMS stands for Content Management System. It’s software to build and run a site without coding. In 2025, 65% of websites use one—WordPress alone powers 43% of the web!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"Think drag-and-drop. Pick a template, add text, pics, hit publish—no tech skills needed. WordPress is king for blogs, Shopify rules e-commerce—$200 billion in sales last year! Others like Wix or Squarespace? Sleek and fast.\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s great</b>\r\n\"It saves time—80% of small businesses use a CMS. No developer? No problem. Plus, updates are a breeze—over 50,000 WordPress plugins tweak anything!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, a CMS is your website shortcut. Tried one yet? Tell me below—follow for more tech hacks!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is a landing page? (Why it’s important)",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Landing pages—seen ‘em, but what are they? They’re secretly selling you stuff. Let’s unpack why they matter!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"A landing page is a single web page with one goal: get you to act. Sign up, buy, download—boom. In 2024, 68% of businesses used them to grab leads—think ‘Free Trial’ buttons!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"It’s focused—no menus, just a hook, some info, and a call-to-action. Ads often send you there. Good ones convert 5-15% of visitors—great ones hit 30%! Clean design, bold text—that’s the trick.\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s important</b>\r\n\"It’s a sales machine. Companies see 55% more leads with landing pages. E-commerce? Show a deal. Newsletter? Grab emails. It’s your digital handshake!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, landing pages turn clicks into wins. Spot one lately? Share it below—follow me for more web tricks!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
     {
       "title": "What is responsive web design?",
-      "script": "Script: ",
+      "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Why do websites look good on phones and laptops? That’s responsive web design—let’s decode it, super quick!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"Responsive web design makes sites adjust to any screen—phone, tablet, PC. Text resizes, layouts shift. In 2025, 85% of web traffic’s mobile, so 92% of new sites are responsive!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"It uses CSS magic—rules that say, ‘Shrink this, move that.’ Load a site on your phone—it fits perfectly, no pinching. Google loves it—responsive sites rank higher since 2015!\"  \r\n<b style='style:block'>[1:00-1:30] Why it matters</b>\r\n\"Users bounce if it’s clunky—50% leave if a site’s not mobile-friendly. Businesses win too—responsive design boosts sales by 20% on average. It’s a must-have!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, responsive design keeps the web smooth everywhere. Notice it today? Comment below—follow for more tech scoops!\"  ",
       "category": "Web Development Basics",
       "completed": false
     },
