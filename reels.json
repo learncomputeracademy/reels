@@ -1,0 +1,1288 @@
+{
+  "reels": [
+    {
+      "title": "What is a computer? (Basic explanation)",
+      "script": "Script: 🗣️ \"Have you ever wondered how this tiny device in your hand or the big machine on your desk actually works? Well, let's break it down!\"\n\nA computer is an electronic device that processes data and performs tasks based on a set of instructions. It follows a simple cycle:\n✅ Input (You press a key or click a button)\n✅ Processing (The CPU calculates and decides what to do)\n✅ Output (You see the result on the screen)\n\nThe first fully functional computer, called ENIAC, was built in 1945, and it weighed over 27 tons—basically the size of a room! Today, your smartphone is millions of times more powerful than those early machines.\n\nComputers are now everywhere—running cars, controlling satellites, and even diagnosing diseases! So next time you use one, just remember… it’s more than just a screen and keyboard—it’s a powerful brain that never sleeps! 💻🚀",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "Server Request Response",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": true
+    },
+    {
+      "title": "What is called server, client, browser",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": true
+    },
+    {
+      "title": "What is software vs. hardware?",
+      "script": "Script: 🗣️ \"Have you ever wondered what actually makes a computer work? It's a mix of two things—hardware and software! Let me explain in the simplest way possible.\"\n\n🖥️ Hardware is everything you can physically touch—the keyboard, mouse, CPU, RAM, and even your screen. Think of it like the body of a car.\n💾 Software is the set of instructions that tell the hardware what to do—like the apps you use, from Chrome to Photoshop. This is like the driver of the car.\n\nWithout hardware, software can’t run. And without software, hardware is just a useless box of circuits. That’s why they must work together!\n\nBy 2030, the global software industry is expected to hit $1 trillion, and without software, we wouldn't have things like AI, mobile apps, or even this video you’re watching right now! Crazy, right? 🚀",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is an operating system? (Windows, macOS, Linux)",
+      "script": "Script: 🗣️ \"Windows, macOS, Linux—why do we even need an operating system, and which one is best? Let’s break it down!\"\n\nAn Operating System (OS) is what makes a computer usable. It manages the hardware, runs software, and controls everything from your files to the internet connection.\n\nWindows is the most popular, with over 70% of the market share. It’s great for gaming and business.\nmacOS is sleek and optimized for Apple devices, used by about 15% of users, mostly professionals and creatives.\nLinux is the king of servers, running 90% of cloud infrastructure, and it’s completely free and open-source!\nWithout an OS, your computer wouldn’t even boot up! So next time your PC lags, don’t just blame the hardware—your OS plays a huge role too! Which one do you prefer? Let me know in the comments! ⬇️",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is RAM and why is it important?",
+      "script": "Script: 🗣️ \"Ever opened too many tabs and suddenly your computer slows down? That’s your RAM screaming for help! But what exactly is RAM?\"\n\nRAM stands for Random Access Memory—it’s your computer’s short-term memory. The more RAM you have, the more tasks your system can handle at once.\n\n🔹 8GB RAM – Great for basic tasks like browsing and watching YouTube.\n🔹 16GB RAM – Ideal for gaming, video editing, and multitasking.\n🔹 32GB+ RAM – Required for heavy programming, 3D rendering, and professional tasks.\n\nA fun fact—modern RAM modules are over 100,000 times faster than hard drives, which is why more RAM = faster performance!\n\nSo, if your PC slows down, before blaming your processor, check your RAM! If it’s not enough, an upgrade might just save your system! 🚀💾",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a CPU? (How it works)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a hard drive vs. SSD? (Storage types explained)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is an IP address? (Simple explanation)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a computer virus? (How to stay safe)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is cloud computing? (Basic overview)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a server? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a website? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is HTML? (Why it’s essential)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is CSS? (How it styles websites)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is JavaScript? (Why it’s important)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "Will Web Design be taken over by AI",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": true
+    },
+    {
+      "title": "Difference between Bootstrap and Tailwind CSS",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": true
+    },
+    {
+      "title": "Don't make these 5 mistakes when building a website",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": true
+    },
+    {
+      "title": "HTML vs. CSS vs. JavaScript - What’s the difference?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a domain name? (How it works)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is web hosting? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a CMS? (WordPress, Shopify, etc.)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a landing page? (Why it’s important)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is responsive web design?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is programming? (Simple explanation)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is a programming language? (Basic overview)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "Importance of jQuery in 2025",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": true
+    },
+    {
+      "title": "What is Python? (Why beginners love it)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is PHP? (How it powers websites)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is JavaScript used for? (Examples)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is React.js? (Why developers use it)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is Node.js? (Backend JavaScript explained)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is a function in programming?",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is a variable in coding?",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is a loop in programming?",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is Python? (Why it’s popular)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a Python function? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a Python list? (How it works)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a Python dictionary? (Simple example)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What are Python libraries? (Best ones to know)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "How Python is used in data science",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Django? (How it helps in web development)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Flask? (Python for web apps)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "Python vs. JavaScript - Which one should you learn?",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an API in Python? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is JavaScript? (Why it’s essential)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an event in JavaScript? (Simple example)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an array in JavaScript? (How it works)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is the DOM? (Why it matters)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "How JavaScript makes websites interactive",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is AJAX? (Why it’s used)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is JSON? (Why it’s important)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an API in JavaScript?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "JavaScript vs. Python - Which one is better?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a JavaScript framework? (React, Angular, Vue)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is UI design? (Why it’s important)",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What is UX design? (How it improves websites)",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "UI vs. UX - What’s the difference?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What are wireframes? (How they help in design)",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "Why typography is important in web design",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "Importance of fonts in website design",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": true
+    },
+    {
+      "title": "Lightmode and Darkmode",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": true
+    },
+    {
+      "title": "Difference between UI and UX",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": true
+    },
+    {
+      "title": "Difference between graphic design and website design",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": true
+    },
+    {
+      "title": "What are the top UI/UX design trends in 2025?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What are the best free tools for UI/UX design?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "How to choose colors for a website?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What are the principles of good web design?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a mockup in web design?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What is WordPress? (Why it’s so popular)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "How to start a blog with WordPress?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "WordPress vs. Shopify - Which one is better?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a WordPress plugin? (Why they’re useful)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "How to secure a WordPress website?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is WooCommerce? (How it helps online stores)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "WordPress vs. Webflow - Which one to choose?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Elementor? (No-code website building)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "How to choose a theme for WordPress?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a website builder? (Best tools)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is PHP? (How it runs the web)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Laravel? (Why PHP developers love it)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is MySQL? (Why databases matter)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "PHP vs. Python - Which one is better?",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How PHP handles forms (Simple explanation)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a backend in web development?",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an API in PHP? (Basic concept)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How PHP helps in eCommerce development",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "5 must-know PHP functions for beginners",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is database management? (Why it’s essential)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How to become a web developer? (Step-by-step)",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "How long does it take to learn coding?",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "5 free websites to learn coding online",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "What are the top coding jobs in 2025?",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "Is web development a good career? (Pros & cons)",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "The best way to practice coding daily",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "How to build your first website? (Easy guide)",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "5 common coding mistakes beginners make",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "What is freelancing? (How to start)",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "Why problem-solving is important for programmers",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "How AI is changing web development?",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "What is ChatGPT? (How it works)",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "What is machine learning? (Basic intro)",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "What is a hackathon? (Why coders love them)",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "How websites looked in the 90s vs. now",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "5 cool websites every developer should know",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "What is the metaverse? (Why it’s trending)",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "What is Web 3.0? (Future of the internet)",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "The funniest coding memes (Compilation)",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "The most in-demand tech skills in 2025",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "What is a computer course, and why should you take one?",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "The difference between IT classes and coding classes",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is an operating system? (Windows vs. macOS vs. Linux)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is cloud computing? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a database, and why is it important?",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is Open Source software? (Why it matters)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is API? (Explained in simple terms)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is an IP address? (Public vs. Private IP)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is cybersecurity? (Basic tips for beginners)",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "What is a website? (Simple explanation)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is HTML, and why is it important?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is CSS? (How it styles websites)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "HTML vs. CSS vs. JavaScript - What's the difference?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a domain name? (How it works)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is web hosting? (Shared vs. VPS vs. Dedicated)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a CMS? (Explaining WordPress, Shopify, etc.)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a landing page, and why do businesses need one?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is responsive web design? (Mobile-friendly websites)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "How to become a web developer? (Step-by-step guide)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "Front-end vs. Back-end Development - What’s the difference?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What are the skills required for a web developer?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "How long does it take to learn web development?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What are web development frameworks? (React, Angular, Vue)",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "Is web development a good career in 2025?",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": false
+    },
+    {
+      "title": "What is programming? (Simple explanation)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is an algorithm? (How it helps in coding)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is an IDE? (Best coding environments for beginners)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is a programming loop? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is an array in programming? (Explained with examples)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "The easiest way to start learning coding today",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "5 free resources to learn coding online",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "The best websites to practice coding for free",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "Why problem-solving is important for programmers",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "What is Python? (Why is it a great beginner language?)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "Why should you learn Python in 2025?",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a Python function? (Basic explanation)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a variable in Python? (Simple terms)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "Python vs. JavaScript - Which one should you learn?",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Django? (How it helps in web development)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Flask? (Why it’s used in Python development)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "How Python is used in data science",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an API in Python? (Simple explanation)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What are Python libraries? (Best ones to know)",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "The difference between Python 2 and Python 3",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is JavaScript? (Why it's essential for web development)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is JavaScript used for? (Front-end & Back-end examples)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is React.js? (Why developers love it)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Node.js? (Why use JavaScript for the backend?)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is the Document Object Model (DOM)?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "Why is JavaScript called a scripting language?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an event listener in JavaScript?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is React.js used for? (Simple explanation)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "How to add animations using JavaScript?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is AJAX? (How it makes websites dynamic)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "5 common JavaScript mistakes beginners make",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a JavaScript framework? (React, Angular, Vue)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "How JavaScript improves website performance",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is TypeScript, and why should you learn it?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What are the benefits of learning JavaScript?",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "What is UI design? (Why is it important?)",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What is UX design? (How it improves user experience)",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "UI vs. UX - What’s the difference?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "5 common UI design mistakes beginners make",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What are wireframes? (How they help in UI/UX design)",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "Why color theory is important in graphic design",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What are the best free tools for UI/UX design?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "How to create a website layout in Photoshop?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "The importance of typography in web design",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What are the top UI/UX design trends in 2025?",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "What is WordPress? (Why 40% of websites use it)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What are WordPress plugins? (Why they are important)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "How to start a blog with WordPress?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "WordPress vs. Shopify - Which is better?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is WooCommerce? (How it turns WordPress into an online store)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "5 must-have WordPress plugins for beginners",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "How to secure a WordPress website?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Elementor? (How to build a website without coding)",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "WordPress vs. Webflow - Which one is better?",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "Why businesses need a website in 2025",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": false
+    },
+    {
+      "title": "What is PHP? (How it powers the web)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is PHP used for? (Why it’s still popular)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "PHP vs. JavaScript - Which one is better for the backend?",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is Laravel? (Why PHP developers love it)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is a MySQL database? (How it works with PHP)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How does PHP handle forms? (Simple explanation)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "What is an API in PHP? (How it connects websites)",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "The importance of PHP in WordPress development",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How PHP helps in eCommerce website development",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "PHP vs. Python - Which one is better for backend development?",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "5 must-know PHP functions for beginners",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How to become a self-taught programmer?",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "Is coding difficult? (Truth about learning to code)",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "How to make a career by learning web design",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": true
+    },
+    {
+      "title": "Who is a Full Stack Developer?",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": true
+    },
+    {
+      "title": "3 common myths about learning programming",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "5 common myths about web design",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "How to stay motivated while learning programming",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "What is freelancing? (How to earn money with coding)",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "What are the top coding jobs in 2025?",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "How AI is changing web development?",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "The best websites to practice coding for free",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "Why problem-solving is important for programmers",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "How to start a career as a web designer?",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    },
+    {
+      "title": "Will it harm your website if it opens slowly?",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": true
+    }
+  ]
+}

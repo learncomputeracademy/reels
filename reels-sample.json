@@ -1,0 +1,64 @@
+{
+  "reels": [
+    {
+      "title": "What is a computer course, and why should you take one?",
+      "script": "Script: ",
+      "category": "Computer Basics & IT Concepts",
+      "completed": false
+    },
+    {
+      "title": "Difference between Frontend & Backend Development",
+      "script": "Script: ",
+      "category": "Web Development Basics",
+      "completed": true
+    },
+    {
+      "title": "What is an API? (Explained for Beginners)",
+      "script": "Script: ",
+      "category": "Programming Fundamentals",
+      "completed": false
+    },
+    {
+      "title": "How to Install Python & Write Your First Script",
+      "script": "Script: ",
+      "category": "Python Basics",
+      "completed": false
+    },
+    {
+      "title": "What is JavaScript? (Explained for Beginners)",
+      "script": "Script: ",
+      "category": "JavaScript Basics",
+      "completed": false
+    },
+    {
+      "title": "How to Choose the Right Colors for Your Website",
+      "script": "Script: ",
+      "category": "Web Design & UI/UX Basics",
+      "completed": false
+    },
+    {
+      "title": "Introduction to WordPress - How Websites Are Made",
+      "script": "Script: ",
+      "category": "WordPress & CMS Basics",
+      "completed": true
+    },
+    {
+      "title": "PHP vs JavaScript - Which One Should You Learn?",
+      "script": "Script: ",
+      "category": "PHP & Backend Basics",
+      "completed": false
+    },
+    {
+      "title": "How to Build a Career in Tech Without a Degree",
+      "script": "Script: ",
+      "category": "General Tech & Career Tips",
+      "completed": false
+    },
+    {
+      "title": "The History of the Internet in 60 Seconds",
+      "script": "Script: ",
+      "category": "Fun & Engaging Tech Topics",
+      "completed": false
+    }
+  ]
+}
