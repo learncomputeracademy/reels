@@ -231,7 +231,7 @@
       },
       {
           "title": "What is a Python list? (How it works)",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is a list in Python? Let’s break it down! 🚀\nA list in Python is like a container that holds multiple values in a single variable! 📦\n🔹 Example:\nHere’s a simple Python list:\n💡 Why use lists?\n✅ Stores multiple values in one place\n✅ Easily add, remove, or modify items\n✅ Supports different data types – Numbers, strings, or even other lists!\nLists make Python coding flexible & efficient!\n💬 What’s your favorite Python data type? Comment below! And don’t forget to like & follow for more coding tips! 🚀",
           "category": "Python Basics",
           "completed": false
       },
