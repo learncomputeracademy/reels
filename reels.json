@@ -93,7 +93,7 @@
       },
       {
           "title": "What is JavaScript? (Why it’s important)",
-          "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever clicked a button and something cool happened? That’s JavaScript at work. Let’s dive in—super simple!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"JavaScript’s a coding language that makes websites interactive. Pop-ups, forms, animations? That’s it. Born in 1995, it’s now on 98% of websites—think YouTube, Facebook, everywhere!\"  \r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"HTML builds, CSS styles, and JavaScript adds action. Like, ‘Click this, show that.’ It runs in your browser, no downloads needed. Fun fact: 70% of developers say it’s their go-to tool—over 19 million use it worldwide!\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s important</b>\r\n\"It’s the king of engagement. Games, live chats, scrolling effects—JavaScript powers them. In 2025, 80% of web apps rely on it. Without it, the web’s just static pages!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, JavaScript’s the spark that makes the web fun. Seen a cool trick online? Drop it below—I’ll check it! Follow for more tech made easy!\"  ",
+          "script": "Script: <b style='style:block'>[0:00-0:10] Hook</b>\r\n\"Ever clicked a button and something cool happened? That’s JavaScript at work. Let’s dive in—super simple!\"  \r\n<b style='style:block'>[0:10-0:30] What is it?</b>\r\n\"JavaScript’s a coding language that makes websites interactive. Pop-ups, forms, animations? That’s it. Born in 1995, it’s now on 98% of websites—think YouTube, Facebook, everywhere!\"\r\n<b style='style:block'>[0:30-1:00] How it works</b>\r\n\"HTML builds, CSS styles, and JavaScript adds action. Like, ‘Click this, show that.’ It runs in your browser, no downloads needed. Fun fact: 70% of developers say it’s their go-to tool—over 19 million use it worldwide!\"  \r\n<b style='style:block'>[1:00-1:30] Why it’s important</b>\r\n\"It’s the king of engagement. Games, live chats, scrolling effects—JavaScript powers them. In 2025, 80% of web apps rely on it. Without it, the web’s just static pages!\"  \r\n<b style='style:block'>[1:30-2:00] Wrap-up</b>\r\n\"So, JavaScript’s the spark that makes the web fun. Seen a cool trick online? Drop it below—I’ll check it! Follow for more tech made easy!\"  ",
           "category": "Web Development Basics",
           "completed": false
       },
@@ -183,13 +183,13 @@
       },
       {
           "title": "What is JavaScript used for? (Examples)",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is JavaScript used for? Let me break it down! 🚀\nJavaScript is the brain behind interactive websites! It's used for:\n✅ Web Development – Makes websites dynamic with animations, pop-ups, and real-time updates. (Think Facebook & YouTube!)\n✅ Mobile Apps – Frameworks like React Native help build apps for iOS & Android. 📱\n✅ Game Development – Used in browser games like Chrome’s Dino Game! 🦖\n✅ Servers & Databases – With Node.js, JavaScript even runs on the backend! ⚡\nIt’s literally everywhere in tech! So, if you’re learning coding, JavaScript is a must!\n💬 What do YOU use JavaScript for? Comment below! And don’t forget to like & follow for more tech tips! 🚀",
           "category": "Programming Fundamentals",
           "completed": false
       },
       {
           "title": "What is React.js? (Why developers use it)",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is React.js, and why do developers love it? Let’s break it down! 🚀\nReact.js is a JavaScript library for building fast and interactive user interfaces—think Facebook, Instagram, and Netflix!\n🔹 Why use React\n✅ Reusable Components – Build once, use everywhere! \n✅ Super Fast – Uses a Virtual DOM for smooth performance. \n✅ Great for SPAs – Perfect for creating Single Page Applications like dashboards and web apps!\n💡 Plus, React has a huge community and works with mobile apps via React Native!\nWant to level up your web development skills? React is a game changer! 💪\n💬 Have you used React? Let me know in the comments! And don’t forget to like & follow for more dev insights! 🚀",
           "category": "Programming Fundamentals",
           "completed": false
       },
