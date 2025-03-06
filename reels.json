@@ -195,37 +195,37 @@
       },
       {
           "title": "What is Node.js? (Backend JavaScript explained)",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is Node.js, and why is it so popular? Let’s break it down! 🚀\nNode.js is a runtime environment that lets you run JavaScript on the backend—outside the browser!\n🔹 Why is Node.js a game changer\n✅ Full-Stack JavaScript – Use JavaScript for both frontend & backend! \n✅ Fast & Scalable – Handles thousands of requests using non-blocking architecture. \n✅ Perfect for APIs – Used to build real-time apps like chat apps & streaming services!\nBig companies like Netflix, PayPal, and LinkedIn use Node.js for speed & efficiency!\nSo, if you’re into backend development, Node.js is a must-learn!\n💬 Have you tried Node.js? Let me know in the comments! And don’t forget to like & follow for more dev tips! 🚀",
           "category": "Programming Fundamentals",
           "completed": false
       },
       {
           "title": "What is a function in programming?",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is a function in programming? Let’s break it down! 🚀\nA function is like a recipe—it’s a reusable block of code that performs a specific task! Instead of writing the same code again and again, you just call the function!\n🔹 Example:\nImagine a function called makeCoffee(). Every time you call it, it makes coffee ☕ without rewriting the steps!\n💡 Why use functions?\n✅ Reusability – Write once, use multiple times! ♻️\n✅ Better Code Organization – Keeps your code clean & manageable.\n✅ Easier Debugging – Fix a function once, and the fix applies everywhere!\nFunctions are a must-know in programming!\n💬 Have you used functions before? Let me know in the comments! And don’t forget to like & follow for more coding tips! ",
           "category": "Programming Fundamentals",
           "completed": false
       },
       {
           "title": "What is a variable in coding?",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is a variable in coding? Let me explain! 🚀\nA variable is like a container that holds data. It stores information so you can use it later in your code!\n🔹 Example\nImagine a box labeled ‘score’ in a game. If you set score = 10, it means the player has 10 points. As the game goes on, the value changes!\n💡 Why use variables\n✅ Stores Data – Numbers, text, or even entire objects\n✅ Makes Code Dynamic – Change values without rewriting everything\n✅ Essential in Every Programming Language!\nVariables are the building blocks of coding!\n💬 What programming language are you learning? Comment below! And don’t forget to like & follow for more coding tips! 🚀",
           "category": "Programming Fundamentals",
           "completed": false
       },
       {
           "title": "What is a loop in programming?",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is a loop in programming? Let me explain! 🚀\nA loop is a way to repeat a task in code without writing the same lines over and over!\n🔹 Example\nImagine you want to print ‘Hello’ 5 times. Instead of writing:\n👉 console.log('Hello'); five times...\nYou use a loop to do it automatically!\n💡 Types of Loops:\n✅ For Loop – Repeats a task a fixed number of times.\n✅ While Loop – Keeps running until a condition is false.\n✅ Do-While Loop – Runs at least once, then checks the condition.\nLoops save time & effort and are used everywhere in programming!\n💬 Have you used loops before? Let me know in the comments! And don’t forget to like & follow for more coding tips! 🚀",
           "category": "Programming Fundamentals",
           "completed": false
       },
       {
           "title": "What is Python? (Why it’s popular)",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is Python, and why is it so popular? Let’s break it down! 🐍🚀\nPython is a powerful and easy-to-learn programming language used for web development, automation, AI, data science, and more!\n🔹 Why is Python so popular\n✅ Beginner-Friendly – Its syntax is simple and reads like English\n✅ Versatile – Used in everything from websites to AI & robotics\n✅ Huge Community – Tons of resources, making it easy to learn\n✅ In-Demand – Big companies like Google, Netflix & NASA use Python!\nIf you’re starting coding, Python is one of the best languages to learn!\n💬 Are you learning Python? Let me know in the comments! And don’t forget to like & follow for more coding tips! 🚀",
           "category": "Python Basics",
           "completed": false
       },
       {
           "title": "What is a Python function? (Basic explanation)",
-          "script": "Script: ",
+          "script": "Script: Hey everyone! What is a function in Python? Let’s break it down! 🚀\nA function is a reusable block of code that performs a specific task. Instead of writing the same code multiple times, you just call the function!\nNow, every time we call greet(), it prints ‘Hello, World!’ 🌍\n💡 Why use functions\n✅ Reusability – Write once, use multiple times\n✅ Better Code Organization – Keeps your code clean and structured\n✅ Easier Debugging – Fix one function, and the fix applies everywhere!\nFunctions make Python coding efficient & powerful!\n💬 Have you written a function in Python? Let me know in the comments! And don’t forget to like & follow for more coding tips! 🚀",
           "category": "Python Basics",
           "completed": false
       },
