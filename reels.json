@@ -5,7 +5,7 @@
           "title": "What is a computer? (Basic explanation)",
           "script": "Script: 🗣️ \"Have you ever wondered how this tiny device in your hand or the big machine on your desk actually works? Well, let's break it down!\"\n\nA computer is an electronic device that processes data and performs tasks based on a set of instructions. It follows a simple cycle:\n✅ Input (You press a key or click a button)\n✅ Processing (The CPU calculates and decides what to do)\n✅ Output (You see the result on the screen)\n\nThe first fully functional computer, called ENIAC, was built in 1945, and it weighed over 27 tons—basically the size of a room! Today, your smartphone is millions of times more powerful than those early machines.\n\nComputers are now everywhere—running cars, controlling satellites, and even diagnosing diseases! So next time you use one, just remember… it’s more than just a screen and keyboard—it’s a powerful brain that never sleeps! 💻🚀",
           "category": "Computer Basics & IT Concepts",
-          "completed": false
+          "completed": true
       },
       {
           "title": "Server Request Response",
@@ -23,13 +23,13 @@
           "title": "What is software vs. hardware?",
           "script": "Script: 🗣️ \"Have you ever wondered what actually makes a computer work? It's a mix of two things—hardware and software! Let me explain in the simplest way possible.\"\n\n🖥️ Hardware is everything you can physically touch—the keyboard, mouse, CPU, RAM, and even your screen. Think of it like the body of a car.\n💾 Software is the set of instructions that tell the hardware what to do—like the apps you use, from Chrome to Photoshop. This is like the driver of the car.\n\nWithout hardware, software can’t run. And without software, hardware is just a useless box of circuits. That’s why they must work together!\n\nBy 2030, the global software industry is expected to hit $1 trillion, and without software, we wouldn't have things like AI, mobile apps, or even this video you’re watching right now! Crazy, right? 🚀",
           "category": "Computer Basics & IT Concepts",
-          "completed": false
+          "completed": true
       },
       {
           "title": "What is an operating system? (Windows, macOS, Linux)",
           "script": "Script: 🗣️ \"Windows, macOS, Linux—why do we even need an operating system, and which one is best? Let’s break it down!\"\n\nAn Operating System (OS) is what makes a computer usable. It manages the hardware, runs software, and controls everything from your files to the internet connection.\n\nWindows is the most popular, with over 70% of the market share. It’s great for gaming and business.\nmacOS is sleek and optimized for Apple devices, used by about 15% of users, mostly professionals and creatives.\nLinux is the king of servers, running 90% of cloud infrastructure, and it’s completely free and open-source!\nWithout an OS, your computer wouldn’t even boot up! So next time your PC lags, don’t just blame the hardware—your OS plays a huge role too! Which one do you prefer? Let me know in the comments! ⬇️",
           "category": "Computer Basics & IT Concepts",
-          "completed": false
+          "completed": true
       },
       {
           "title": "What is RAM and why is it important?",
